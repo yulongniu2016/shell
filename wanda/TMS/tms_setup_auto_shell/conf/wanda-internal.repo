@@ -1,0 +1,56 @@
+[centos-base-664]
+name=CentOS-664 - Base
+baseurl=http://10.199.88.248/centos-base-664/
+gpgcheck=1
+gpgkey=http://10.199.88.248/rpm-gpg/RPM-GPG-KEY-CentOS-6
+enabled=1
+
+[centos-updates-664]
+name=CentOS-664 - Updates
+baseurl=http://10.199.88.248/centos-updates-664/
+gpgcheck=1
+gpgkey=http://10.199.88.248/rpm-gpg/RPM-GPG-KEY-CentOS-6
+enabled=1
+
+[centos-extras-664]
+name=CentOS-664 - Extras
+baseurl=http://10.199.88.248/centos-extras-664/
+gpgcheck=1
+gpgkey=http://10.199.88.248/rpm-gpg/RPM-GPG-KEY-CentOS-6
+enabled=1
+
+[epel-664]
+name=Extra Packages for Enterprise Linux 6 - $basearch
+baseurl=http://10.199.88.248/epel-664/
+gpgcheck=1
+gpgkey=http://10.199.88.248/rpm-gpg/RPM-GPG-KEY-EPEL-6
+enabled=1
+
+[centos-sclo-664]
+name=SCL Packages for Enterprise Linux 6 - $basearch
+baseurl=http://10.199.88.248/centos-sclo-664/
+gpgcheck=1
+gpgkey=http://10.199.88.248/rpm-gpg/RPM-GPG-KEY-CentOS-SIG-SCLo
+enabled=0
+
+[centos-sclo-rh-664]
+name=SCL RedHat Packages for Enterprise Linux 6 - $basearch
+baseurl=http://10.199.88.248/centos-sclo-rh-664/
+gpgcheck=1
+gpgkey=http://10.199.88.248/rpm-gpg/RPM-GPG-KEY-CentOS-SIG-SCLo
+enabled=0
+
+[pgdg93-664]
+name=PostgreSQL 9.3 $releasever - $basearch
+gpgcheck=1
+gpgkey=http://10.199.88.248/rpm-gpg/RPM-GPG-KEY-PGDG-93
+enabled=0
+baseurl=http://10.199.88.248/pgdg93-664
+humanname=PostgreSQL 9.3 $releasever - $basearch
+
+[pgdg95-664]
+name=PostgreSQL 9.5 $releasever - $basearch
+gpgkey=http://10.199.88.248/rpm-gpg/RPM-GPG-KEY-PGDG-95
+enabled=0
+baseurl=http://10.199.88.248/pgdg95-664
+humanname=PostgreSQL 9.3 $releasever - $basearch
