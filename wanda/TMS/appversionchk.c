@@ -2,6 +2,6 @@
 
 main()
 {
- //system("/bin/sh ./include/appversionchk.sh zabbixDB2016");
- system("./include/appversionchk.sh.x zabbixDB2016");
+ //system("/bin/sh ./include/appversionchk.sh yourDBpassword");
+ system("./include/appversionchk.sh.x XXXXXX");
 }
